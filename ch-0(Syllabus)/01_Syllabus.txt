@@ -1,0 +1,201 @@
+Syllabus of JavaScript
+
+JavaScript Beginning to Masterty Syllabus
+
+1> JavaScript vs EcmaScript
+2> Install vscode and run first program 
+
+
+
+Basic of programming in JavaScript ==>
+
+1> Hello world program 
+2> Declare variable using var 
+3> More about variable
+4> Let
+5> Const 
+6> String Indexing 
+7> Useful string methods 
+8> Template Strings 
+9> Null, undefined,Bigint,typeof
+10> Booleans and Comparision Operator 
+11> Truthy and Falsy Values 
+12> if else statement
+13> Ternery Operator 
+14> && || Operator 
+15> Nested elseif else 
+16> Switch statement 
+17> While loop
+18> While loop examples 
+19> For loop 
+20> Break and continue keyword
+21> Do while loop
+
+
+Arrays in JavaScript   ==>
+
+1> Intro to Arrays
+2> Push pop shift unshift 
+3> Primitive vs reference data Types 
+4> Clone array & spread operator 
+5> For loop 
+6> Use const for creating arrays 
+7> While loop in array 
+8> For of loop 
+9> For in loop 
+10> Array destructing
+
+
+
+Objects in JavaScript  ==>
+
+1> Intro to objects 
+2> Dot vs Bracket Notations 
+3> Computed properties 
+4> Spread operator in objects 
+5> Objects destructing 
+6> Objects inside Array 
+7> Nested Destructing 
+
+
+Function in JavaScript
+
+1> Function Declaration 
+2> Function Expression 
+3> Arrow Function 
+4> Function Declaration are hoisted (covererd in great detail, later in this course)
+5> Function inside function 
+6> Lexical Scope
+7> Block Scope vs Function Scope
+8> Default Parameter 
+9> Rest Parameter
+10> Parameter Destructing
+11> Very brief intro to callback functions(convered in great detail,later in the course)
+12> Function returing Functions
+
+
+Very Important Array Methods ==>
+
+1> Foreach method 
+2> Map method 
+3> Filter 
+4> Sort 
+5> Find
+6> Every 
+7> Some 
+8> Fill method 
+9> Fill method 
+10> Splice method 
+
+
+
+More usefull things ==> 
+
+1> Iterables 
+2> Sets 
+3> Maps 
+4> Object assign 
+5> Optimall chaining 
+
+
+Object Oriented JavaScript / Prototypal inheritance 
+
+1> Nethods 
+2> This keyword, Window Object 
+3> Call,apply and bind method 
+4> Some warnings
+5> This inside arrow functions
+6> Short syntax for methods 
+7> Factory function and discuss some memory related problem 
+8> First solution to that problem 
+9> Why that problem solution isn't that great 
+10> What is __proto__[[prototype]]
+11> What is prototype
+12> Use prototype
+13> New keyword 
+14> Constructor function with new keyword 
+15> More discussion about proto and prototype 
+16> Class keyword 
+17> Example using class keyword 
+18> Super keyword 
+19> Method overrrding 
+20> Getters and setters 
+21> Static methods and properties 
+
+
+
+How JavaScript Works ==> 
+
+1>Global Execution context 
+2>This and windows in global execution context 
+3> Hoisting 
+4> Are let and const are hoisted ? what is a reference Error ?
+5> Function exection context 
+6> Scope chain and lexical environment 
+7> Intro to closures 
+8> Closures example 1
+9> Closures example 2
+10> Closures example 3
+
+DOM Tutorial 
+
+1> HTML and CSS crash course (Arround 30-40 miniutes)
+2> Async vs defer 
+3> Select elements using id 
+4> querySelector 
+5> textContent & innerText 
+6> Change the styles of elements using js 
+7> Get and set attributes 
+8> Selects multiple elements and loop through them
+9> innerHTML 
+10> Deeply understand dom tree, root node, element nodes, text nodes
+11> classList
+12> Add new elements to page 
+13> Create elements
+14> Insert adjacent elements 
+15> Clone nodes 
+16> More methods to add elements on page 
+17> How to get the dimensions of the element
+
+
+
+18> intro to events 
+19> This keyword inside eventListner callback
+20> Add events on multiple elements 
+21> Events objects 
+22> How events listeners works 
+23> Practice with events 
+24> Create demo projects 
+25> More events 
+26> Events bubbling 
+27> Event Capturing 
+28> Create Project using event delegation
+
+
+Asynchronous JavaScript ==>
+
+1> is JavaScript is a Asynchronous or synchronous programming language 
+2> setTimeout()
+3> setTimeout() with 0 millisecond 
+4> Callback Queue 
+5> Setinterval and create little project with Setinterval
+6> Understand callbacks in general
+7> Callbacks in Asynchronous programming 
+8> Callback hell and pyramid of doom 
+9> intro to promises 
+10> Microtask Queue 
+11> Function that returns promise
+12> Promise and setTimeout
+13> Promise.resolve and more about then method 
+14> Convert nested callbacks to flat anoht then method 
+15> Intro to Ajax, HTTP Request
+16> XHR Request 
+17> Error handling in XHR requests 
+18> Promisifying XHR requests and chaining using hten mehtod 
+19> Fetch API
+20> Error Handling in Fetch API 
+21> Consume Promises with async and Await 
+22> split code into multiple files using ES6 modules 
+
+
+23>>>>>>>>>>>>>>>>>>>>>>>>>>>>COMPLETED>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
