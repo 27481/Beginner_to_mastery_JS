@@ -1,0 +1,99 @@
+
+
+what are these ?
+
+ECMAScript 
+JavaScript
+ES5
+ES6
+ES7
+ES 2015
+ES 2016
+ES 2017
+ES 2018
+
+Q1> ==> Weird History of JavaScript
+
+
+1> In (1995) a very popular web browser (Netscape Naviagator) felt that they require a programming language  through which we can add interactivity in websites 
+
+2> Brendan Eich who was working in (Netscape Naviagator) created a programming language in 10 days named "mocha" and then renamed it "LiveScript" 
+
+3> When "LiveScript" came one popular language was already running in the market i.e "JAVA" so they decided to name the name of "LiveScript" to "JavaScript"
+
+4> LiveScript ------> JavaScript 
+
+
+5> Internet Explorer took some freatures of JavaScript and created a new programming language "jScript" to give comeptition to "JavaScript" of Netscape Naviagator
+
+6> Now,
+      microsoft(internet explorer) have -> "jScript" 
+      (Netscape Naviagator) have -> "JavaScript"
+    
+7> In 1996 problem was -> 
+             If we use Netscape --> then our website will look good in "JavaScript"
+                but 
+             If we use internet Explorer --> then our will look good in "jScript"
+
+
+8> This was causing problem because it was difficult to make website for both
+                    web browsers i.e "Netscape" "Internet Explorer"
+
+9> Then ECMA() --> Ecma international is (an industry association dedicated to the standardization of information and communication systems)
+
+10> Ecma decided some standard rules for any scripting language that works in web browser should behave
+
+11> All browsers must have to implement those standard
+
+12> ECMA standardized JavaScript
+
+
+13> In 1997, ECMAscript launched its own 
+                                         ES1 : 1997 (containing some standardization)
+    
+    than 
+        came ES1
+    than 
+        ES2
+    than 
+        ES3
+    than
+        ES4
+    than 
+        ES5 (in december 2009)
+
+
+14> ES5 become popular (as it has lots of new features) which was liked by everyone
+
+15> After it 
+             ES6 : (in 2015 came)==>(biggest update in the History of JavaScript)
+    
+    This ES6 is also known as modern day JavaScript,
+
+
+16> Ecma has a community name TC39(technical community 39)
+        Members of TC39 decides which new freatures which be introduced in JavaScript
+
+
+        TC39 decided to 6 every year 1 metting in every 2 month to decide 
+        which freatures should be added to JavaScript 
+
+        In , 2015 when JavaScript came 
+                                then they removed the official name ES1/ES2
+                    (so official name of JavaScript is ES6 : ES2015)
+
+
+
+17> JavaScript is backward Compatible
+18> JavaScript is not forward Compatible(todays JavaScript will not run in 15 yr old browser) 
+
+
+19> what is babel in JavaScript ?
+==> 
+    Babel is a popular open-source JavaScript compiler that is mainly used for transforming modern JavaScript code into an older version of JavaScript that is compatible with most browsers and environments. It's often referred to as a "transpiler" because it doesn't just compile JavaScript to machine code like traditional compilers, but rather it translates JavaScript code from one version to another.
+    In summary, Babel is a valuable tool for JavaScript developers 
+    who want to write modern, clean, and efficient code while ensuring compatibility with a wide range of browsers and environments. It helps bridge the gap between the latest JavaScript language features and the need for cross-browser compatibility.
+    Babel transpile the code so that it supports all the browsers
+
+
+=======>> Now we know what is JavaScript,ECMAScript,ES5,ES6,ES7==================
