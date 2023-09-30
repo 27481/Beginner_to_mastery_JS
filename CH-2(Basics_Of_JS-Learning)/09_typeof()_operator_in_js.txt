@@ -1,0 +1,36 @@
+In JavaScript, 
+the typeof operator is used to determine the data type of a value or expression. 
+
+It returns a string that represents the data type of the operand. Here's how it works:
+
+
+
+typeof operand
+
+The operand can be a variable, a literal value, or an expression. The typeof operator returns one of the following strings:
+
+
+"undefined": If the operand is an undefined value or variable.
+"boolean": If the operand is a boolean value.
+"number": If the operand is a number, including integers and floating-point numbers.
+"string": If the operand is a string.
+"bigint" (introduced in ECMAScript 11): If the operand is a BigInt.
+"symbol" (introduced in ECMAScript 6): If the operand is a Symbol.
+"function": If the operand is a function.
+"object": If the operand is an object (excluding null, arrays, and other specific data structures).
+"null": If the operand is null.
+Here are some examples:
+
+typeof 42; // "number"
+typeof "Hello"; // "string"
+typeof true; // "boolean"
+typeof undefined; // "undefined"
+typeof null; // "object"
+typeof [1, 2, 3]; // "object"
+typeof { name: "John" }; // "object"
+typeof function() {} // "function"
+typeof Symbol("example"); // "symbol"
+
+It's important to note that typeof has some quirks. 
+
+For example, it returns "object" for arrays and certain objects, but you can use other methods (like Array.isArray) to determine if something is an array specifically. Additionally, it's worth mentioning that typeof null returns "object", which is a historical artifact and not entirely accurate.

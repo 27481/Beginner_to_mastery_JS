@@ -1,0 +1,50 @@
+
+//! what is hoisting in JavaScript? 
+/*
+When answering the question "What is hoisting in JavaScript?" during an interview, you can provide a concise and clear explanation. Here's a sample response:
+
+"Hoisting in JavaScript is a behavior where variable and function declarations are moved to the top of their containing scope during the compilation phase, 
+ 
+before the code is actually executed.
+
+This means that you can use variables and functions in your code before they are physically declared in the source code. 
+
+However, it's essential to understand that only the declarations are hoisted, 
+
+not the assignments or function implementations. Variables declared with 'var' are hoisted to the top of their containing function, while functions declared with 'function' are hoisted in their entirety. Hoisting can sometimes lead to unexpected results, so it's crucial to be aware of this behavior and use best practices when declaring and initializing variables and functions."
+*/
+
+
+//! Can we declare variables without using the var keyword ?
+
+/* 
+
+!Global Scope: If you declare a variable without var, let, or const inside a function or block, it becomes a global variable. This means it will be accessible from anywhere in your code, which can lead to unexpected behavior and bugs. It's generally not recommended to create global variables unintentionally.
+
+Without var, let, or const
+myVar = 10;
+
+function example() {
+  console.log(myVar); // This will work, and it's a global variable.
+}
+
+
+!Strict Mode: In modern JavaScript, using var without declaring variables can lead to subtle issues. JavaScript's strict mode, which is a recommended practice, prevents you from creating global variables accidentally and enforces cleaner coding standards. When you use undeclared variables in strict mode, it throws an error.
+
+To enable strict mode, you add "use strict"; at the beginning of your script or function:
+
+
+"use strict";
+myVar = 10; // This will throw an error in strict mode.
+
+
+!Variable Hoisting: Variables declared with var are hoisted to the top of their containing function or global scope. This means that even if you declare a variable later in your code, it's as if it was declared at the top. This behavior can lead to unexpected results.
+
+
+console.log(myVar); // undefined (not an error)
+var myVar = 10;
+
+To avoid these issues, 
+it's recommended to use let or const instead of var for variable declarations. These keywords have block scope, meaning they are only accessible within the block they are defined in. This helps prevent accidental global variable creation and can lead to more predictable code behavior.
+
+*/

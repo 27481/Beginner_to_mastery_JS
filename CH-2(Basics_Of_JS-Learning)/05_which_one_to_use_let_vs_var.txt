@@ -1,0 +1,58 @@
+Using the var keyword in javascript to declare variables is not recommended 
+because it has (functional scope), not block scope 
+
+.This can lead to unexpected behaviour and bugs in your codes
+
+Its better to use let and const introduced in ES6, as they have block scope 
+and provide better control over variable scoping making our code more predictable 
+and maintainable
+
+
+using `var` keyword is not recommended in moredern JS 
+for several reasons:
+
+
+
+1> Function Scope -> Variables delcared with  `var` have function-level block scope, 
+                     not block-levle scope 
+            This means they are not limited to the block in which they are defined 
+            leading to potential issues and confusion 
+    
+    eg=> 
+      function exampleFunction(){
+        if(true){
+            let x=10;
+        }
+        console.log(x); // Output 10, even though x was declared inside the if block
+      }
+
+
+2> hoisiting behaviour =>
+                    Variables declared with var are hoisted to the top of their containing function or global scope. This can lead to unexpected behavior when variables are used before they are declared.
+
+                    eg=> 
+                    console.log(myVar); // undefined (not an error)
+                    var myVar = 10;
+
+
+3> No Block Scope  ==> var does not respect block-level scope, which can make code 
+less predictable and lead to unintentional variable shadowing.
+
+
+function example() {
+    if (true) {
+        var x = 10;
+    }
+    // 'x' is still accessible here, which may not be intended
+}
+
+
+
+4> let and const Alternatives ==> In modern JavaScript, let and const provide block-level scope, making code more predictable and reducing the likelihood of bugs. They are considered safer and more flexible alternatives to var
+
+
+
+In summary, 
+it's recommended to use let and const for variable declarations 
+In modern JavaScript code 
+   because they offer better scoping and are less error-prone compared to var. var is still supported for backward compatibility but is no longer the preferred way to declare variables in most JavaScript applications.

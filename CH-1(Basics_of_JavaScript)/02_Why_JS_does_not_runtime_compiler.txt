@@ -1,0 +1,25 @@
+//! Why javascript does not have runtime compiler like python
+
+JavaScript is indeed an interpreted language, which means that it is executed directly by the JavaScript engine without the need for a separate compilation step. While it lacks a traditional compile-time phase like languages such as C++ and Java,
+
+
+
+
+JavaScript development environments and runtimes provide various tools and mechanisms to run code interactively and enhance the development experience:
+
+
+
+
+1> Node.js: Node.js is a runtime environment for JavaScript that allows you to run JavaScript code on the server-side. It provides a REPL (Read-Eval-Print Loop) that allows you to run JavaScript code interactively in a terminal or command prompt.
+
+2> Browsers' Developer Tools: Modern web browsers, such as Chrome, Firefox, and Edge, come with developer tools that include a JavaScript console. You can use this console to run JavaScript code interactively in the context of a web page.
+
+3> Online Code Editors and Playground: Several online code editors and playgrounds, like CodePen, JSFiddle, and Repl.it, allow you to write and run JavaScript code in a browser-based environment. They often include features like live code preview and immediate feedback.
+
+4>Code Editors: Integrated development environments (IDEs) and code editors like Visual Studio Code provide extensions and plugins that offer an interactive coding experience for JavaScript, including code execution within the editor.
+
+5>Jupyter Notebooks: Jupyter Notebook environments can be set up to run JavaScript code interactively, similar to how they work for Python.
+
+6>Server-Side JavaScript: While JavaScript is primarily known for client-side web development, technologies like Node.js allow you to write and run server-side JavaScript code, providing a more traditional development environment.
+
+7>While JavaScript doesn't have a separate runtime compiler like Python's interactive shell (python or ipython), these tools and environments provide ways to interactively write, test, and debug JavaScript code during development.

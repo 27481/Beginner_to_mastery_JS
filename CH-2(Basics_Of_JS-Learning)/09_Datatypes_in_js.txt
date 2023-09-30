@@ -1,0 +1,43 @@
+JavaScript has several built-in data types. These data types can be broadly categorized into two main categories: 
+
+(primitive data types and reference data types)
+
+Primitive Data Types:
+
+Number: Represents both integer and floating-point numbers.
+
+String: Represents a sequence of characters, such as text.
+
+Boolean: Represents true or false values.
+
+Undefined: Represents a variable that has been declared but has not been assigned a value.
+
+Null: Represents an intentional absence of any object value.
+
+Symbol (introduced in ECMAScript 6): Represents a unique and immutable value primarily used as object property keys.
+
+BigInt (introduced in ECMAScript 11): Represents large integers that can't be represented using the Number type.
+Reference Data Types:
+
+Object: Represents a collection of key-value pairs, often used to represent complex data structures.
+
+
+Array: A specialized type of object used to store ordered collections of values.
+Function: A callable object that can execute a block of code.
+
+Date: Represents dates and times.
+
+RegExp: Represents regular expressions for pattern matching.
+
+Map : (introduced in ECMAScript 6): Represents a collection of key-value pairs with predictable iteration order.
+
+Set : (introduced in ECMAScript 6): Represents a collection of unique values.
+WeakMap : (introduced in ECMAScript 6): Similar to Map but with some differences in key references.
+
+WeakSet : (introduced in ECMAScript 6): Similar to Set but with some differences in object references.
+
+
+
+These are the fundamental data types in JavaScript. 
+
+Understanding these data types is essential for effective programming in JavaScript, as they form the building blocks for storing and manipulating data in the language.
