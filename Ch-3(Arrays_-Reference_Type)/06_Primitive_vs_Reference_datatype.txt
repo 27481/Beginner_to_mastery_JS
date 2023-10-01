@@ -1,0 +1,40 @@
+In JavaScript, there are two main categories of data types: primitive data types and reference data types. Here are the key differences between the two:
+
+
+
+Primitive Data Types:
+
+Stored as Values: Primitive data types are stored as simple values directly in memory. Each variable containing a primitive type holds a unique copy of that value.
+
+Immutable: Primitive values are immutable, meaning their values cannot be changed after they are created. Operations on primitives return new values rather than modifying the original value.
+
+Examples: JavaScript has six primitive data types:
+
+undefined: Represents an uninitialized variable.
+null: Represents the absence of any object value.
+boolean: Represents true or false values.
+number: Represents numeric values (integers and floating-point numbers).
+string: Represents sequences of characters.
+symbol (added in ECMAScript 6): Represents unique and immutable values, often used as object property keys.
+Comparisons: Primitive values are compared by their actual values. Two variables with the same primitive value will be considered equal.
+
+Pass by Value: When passing a primitive as an argument to a function or assigning it to another variable, a copy of the value is passed or assigned.
+
+Reference Data Types:
+
+Stored as References: Reference data types are stored as references (memory addresses) to objects in memory. Variables holding reference data types don't actually contain the object but instead point to where the object resides in memory.
+
+Mutable: Reference types are mutable, meaning you can modify their properties or contents directly.
+
+Examples: Reference data types include:
+
+Object: Represents a collection of key-value pairs.
+Array: A specialized object for storing ordered collections of values.
+Function: A special type of object that can be invoked as a function.
+Date: Represents dates and times.
+User-defined objects: Objects created by the programmer.
+Comparisons: Reference types are compared by reference. Two variables that reference the same object in memory are considered equal, even if their properties or contents differ.
+
+Pass by Reference (or Reference Copy): When passing a reference type as an argument to a function or assigning it to another variable, you're passing a reference to the same object. This means changes made to the object inside a function affect the original object outside the function.
+
+In summary, the main differences between primitive and reference data types in JavaScript are how they are stored, their mutability, and how they are compared. Primitive types are simple values stored directly, immutable, and compared by value, while reference types are stored as references, mutable, and compared by reference. Understanding these distinctions is important for working with JavaScript effectively.z

@@ -1,0 +1,16 @@
+Array destructuring in JavaScript is a feature that allows you to unpack values from arrays or iterable objects into separate variables. It provides a concise way to extract elements from an array and assign them to variables in a single statement. This can make your code cleaner and more readable.
+
+
+Here's the basic syntax of array destructuring:
+
+
+const [variable1, variable2, ...rest] = array;
+
+variable1, variable2, etc. 
+are the variables where you want to assign the values from the array.
+
+
+array is the source array or iterable object that you want to destructure.
+...rest is an optional variable that collects the remaining elements into an array.
+
+
