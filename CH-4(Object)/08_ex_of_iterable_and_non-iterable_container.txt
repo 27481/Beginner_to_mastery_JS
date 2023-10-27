@@ -1,0 +1,69 @@
+Iterable Objects:
+
+1. Arrays:
+   Arrays in JavaScript are iterable, allowing you to iterate through their elements using loops like for...of or array methods like forEach.
+   Example:
+   const myArray = [1, 2, 3, 4, 5];
+   for (const item of myArray) {
+       console.log(item);
+   }
+
+2. Strings:
+   Strings are iterable, allowing you to iterate through their characters.
+   Example:
+   const myString = "Hello";
+   for (const char of myString) {
+       console.log(char);
+   }
+
+3. Maps and Sets:
+   JavaScript also provides built-in objects like Map and Set, which are iterable collections of key-value pairs and unique values, respectively.
+   Example:
+   const myMap = new Map([['a', 1], ['b', 2]]);
+   for (const [key, value] of myMap) {
+       console.log(key, value);
+   }
+
+   const mySet = new Set([1, 2, 3, 2]);
+   for (const item of mySet) {
+       console.log(item);
+   }
+
+Non-Iterable Objects:
+
+1. Numbers:
+   Numbers are not iterable. They are treated as single values.
+   Example:
+   const myNumber = 42;
+   // This will not work because numbers are not iterable:
+   // for (const digit of myNumber) {
+   //     console.log(digit);
+   // }
+
+2. Objects:
+   Plain JavaScript objects (created with {}) are non-iterable by default. However, you can iterate over their keys, values, or key-value pairs using specific techniques.
+   Example:
+   const myObject = { a: 1, b: 2, c: 3 };
+   
+   // Iterate over keys
+   for (const key in myObject) {
+       console.log(key);
+   }
+   
+   // Iterate over values (requires a loop)
+   for (const key in myObject) {
+       const value = myObject[key];
+       console.log(value);
+   }
+
+3. Functions:
+   Functions are non-iterable, as they are not treated as collections of values.
+   Example:
+   function myFunction() {
+       // This is a function, not an iterable object.
+   }
+   
+   // This will not work for functions:
+   // for (const item of myFunction) {
+   //     console.log(item);
+   // }

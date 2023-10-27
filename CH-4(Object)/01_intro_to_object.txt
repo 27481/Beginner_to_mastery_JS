@@ -1,0 +1,12 @@
+Objects 
+
+arrays are good but not sufficent 
+for real world data 
+object store key value pairs 
+objects dont have index 
+
+
+
+In JavaScript, 
+object keys are stored as strings by default. 
+This means that when you create an object and specify keys, those keys are automatically converted to strings, even if you provide them as other data types like numbers or symbols.

@@ -1,0 +1,7 @@
+What is function Expression
+
+in JavaScript, 
+
+function expressions are sometimes informally referred to as "lambda functions" or "anonymous functions." However, it's important to clarify that while they share some similarities with lambda functions in other programming languages, JavaScript function expressions are not exactly the same as lambda functions in languages like Python or Java.
+
+

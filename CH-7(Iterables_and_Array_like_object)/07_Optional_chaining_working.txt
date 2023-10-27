@@ -1,0 +1,58 @@
+---
+
+**Optional Chaining in JavaScript**
+
+*Introduction:*
+Optional chaining is a feature introduced in ECMAScript 2020 (ES11) for JavaScript. It provides a way to simplify and make your code more resilient when accessing nested properties or calling methods on objects that may not exist.
+
+*Syntax:*
+The syntax for optional chaining in JavaScript is the `?.` operator. It can be applied to access properties or call methods.
+
+```javascript
+// Accessing a nested property with optional chaining
+const value = object?.property?.nestedProperty;
+
+// Calling a method with optional chaining
+const result = object?.method?.();
+```
+
+*Usage:*
+Optional chaining is useful in scenarios where you want to access properties or call methods on objects with uncertain or potentially missing intermediate properties. It helps prevent errors by returning `undefined` instead of throwing an error when any intermediate property is missing or undefined.
+
+*Examples:*
+
+1. Accessing a deeply nested property:
+```javascript
+const user = {
+  name: "John",
+  address: {
+    street: "123 Main St",
+  },
+};
+
+const street = user?.address?.street; // No error, 'street' will be undefined if any intermediate property is missing
+```
+
+2. Calling a method on an object:
+```javascript
+const user = {
+  name: "John",
+  getAddress: () => {
+    return {
+      street: "123 Main St",
+    };
+  },
+};
+
+const street = user?.getAddress()?.street; // No error, 'street' will be undefined if 'getAddress' or any intermediate property is missing
+```
+
+*Use Cases:*
+Optional chaining is particularly useful when working with data that may not be structured consistently or when dealing with data from external sources like APIs, where the existence of certain properties is uncertain. It helps you write more robust and error-resistant code.
+
+*Compatibility:*
+Ensure that your JavaScript environment supports ECMAScript 2020 (ES11) or later to use optional chaining.
+
+---
+
+You can now copy and paste this information as needed.
