@@ -19,7 +19,7 @@ console.log(res);
 const userCart=[
     {productId: 1, productName: "mobile", price: 10000},
     {productId: 2, productName: "laptop", price: 30000},
-    {productId: 3, productName: "tv", price: 15000},-
+    {productId: 3, productName: "tv", price: 15000},
 ]
 
 const sum=userCart.reduce((totalPrice, currentProduct)=>{

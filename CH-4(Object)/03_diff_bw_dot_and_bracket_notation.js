@@ -7,6 +7,7 @@ const person={
     age:22,
     "person hobbies":['guitar',"sleeping","listening music"]
 }
+
 // To access key which has space some space in its name i.e by using bracket notation
 console.log(person["person hobbies"]);
 

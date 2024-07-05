@@ -4,7 +4,7 @@
 // const person ={
 //     firstName : "utkarsh",
 //     age: 8,
-//     about: function(){1
+//     about: function(){
 //         console.log(`person name is ${this.firstName} and age is ${this.age}`);
 //     }
 // } 
@@ -30,7 +30,7 @@ const person3={
 }
 
 
-person1.about();
+person1.about(); 
 person2.about();
 person3.about();
 // console.log(person.about);

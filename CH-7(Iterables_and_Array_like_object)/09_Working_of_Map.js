@@ -7,6 +7,7 @@
 
 
 const person = new Map();
+
 person.set('firstName','utkarsh');
 person.set('age','7');
 person.set([1,2,3],'onetwothree')

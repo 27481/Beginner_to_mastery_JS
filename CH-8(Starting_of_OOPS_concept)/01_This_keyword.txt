@@ -91,5 +91,3 @@ Understanding the value of `this` in a specific context is crucial for object-or
 - The value of `this` in JavaScript can be a common source of confusion, so careful handling is often required in complex code.
 
 ---
-
-You can now copy and paste this information as needed.
