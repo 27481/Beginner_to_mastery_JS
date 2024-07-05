@@ -54,5 +54,3 @@ Optional chaining is particularly useful when working with data that may not be 
 Ensure that your JavaScript environment supports ECMAScript 2020 (ES11) or later to use optional chaining.
 
 ---
-
-You can now copy and paste this information as needed.
