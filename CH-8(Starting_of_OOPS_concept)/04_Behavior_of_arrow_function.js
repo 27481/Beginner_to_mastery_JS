@@ -8,5 +8,4 @@ const user1={
     }
 }
 
-
 user1.about.call(user1);

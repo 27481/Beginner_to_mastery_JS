@@ -28,6 +28,6 @@ const person={
 console.log(person['1']);
 
 
-for(let jey in person){
+for(let key in person){
     console.log(typeof key);
 }
