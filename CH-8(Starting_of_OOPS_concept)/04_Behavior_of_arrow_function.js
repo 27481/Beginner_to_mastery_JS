@@ -1,4 +1,4 @@
-// arrow functions --> Arrow function does not have thisReference of its own, it takes thisReference from its surrounding  
+// arrow functions --> Arrow function does not have this Reference of its own, it takes thisReference from its surrounding  
 
 const user1={
     firstName : "utkarsh",

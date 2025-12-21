@@ -1,5 +1,4 @@
-// methods 
-// function inside object 
+// methods is => function inside object 
 
 // const person ={
 //     firstName : "utkarsh",
@@ -9,8 +8,11 @@
 //     }
 // } 
 
+// Value of this is determined on runtime 
 function personInfo(){
-    console.log(`person name is ${this.firstName}`)
+    // console.log(`person name is ${this.firstName}`)
+    console.log(this)
+    console.log(window)
 }
 
 const person1={
@@ -29,8 +31,9 @@ const person3={
     about: personInfo
 }
 
+personInfo();
 
-person1.about(); 
-person2.about();
-person3.about();
+// person1.about(); 
+// person2.about();
+// person3.about();
 // console.log(person.about);

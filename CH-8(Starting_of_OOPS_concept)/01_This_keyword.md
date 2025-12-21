@@ -66,5 +66,3 @@ fn();                  // this = global/undefined
 `this` depends on **HOW the function is called**, not where it's written.
 
 ---
-
-If you want, I can make it even shorter, or convert it into a **diagram**, **table**, or **interview-ready notes**.
