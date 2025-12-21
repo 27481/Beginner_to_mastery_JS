@@ -21,6 +21,19 @@ const user ={
 // Making a function which takes input and creates objects and then add some key-value pair then return that newly created Object
 // Concept of OOPS 
 
+
+const userMethods={
+    about : function(){
+        return `${this.firstName} is ${this.age} years `
+    },
+    is18 : function(){
+        return this.age>=18;
+    },
+    sing : function(){
+        return 'toon na na na na';
+    }
+}
+
 function createUser(firstName, lastName, email, age, address){
     const user ={};
     user.firstName=firstName,
@@ -28,16 +41,15 @@ function createUser(firstName, lastName, email, age, address){
     user.email=email,
     user.age=age,
     user.address=address,
-    user.about=function(){
-        return `${this.firstName} is ${this.age} years `
-    };
-    user.is18 = function(){
-        return this.age>=18;
-    }
+    user.about = userMethods.about;
+    user.is18 = userMethods.is18;
+    user.sing = userMethods.sing;
     return user;
 }
 
 const user1 =createUser('harshit','utkarsh',"utarshpandey519@gmail.com", 19, 'myaddress')
 const user2 =createUser('Rohit','Mohit',"utarshpandey519@gmail.com", 19, 'myaddress')
+const user3 =createUser('Rohit','Mohit',"utarshpandey519@gmail.com", 19, 'myaddress')
 
-console.log(user1, user2);
+console.log(user1.about());
+console.log(user3.about());
