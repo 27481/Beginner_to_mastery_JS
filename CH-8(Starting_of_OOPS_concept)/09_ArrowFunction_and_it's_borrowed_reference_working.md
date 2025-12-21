@@ -126,3 +126,4 @@ function () {
 > **Arrow functions capture `this` from the nearest enclosing *function*, not from objects.**
 
 That’s the cleanest and most correct mental model.
+
