@@ -1,3 +1,5 @@
+// Hard coded 1 user it is not dynamic 
+
 const user ={
     firstName :"utkarsh",
     lastName : "pandey",
@@ -16,8 +18,9 @@ const user ={
 // console.log(aboutUser);
 
 
-// making a function which takes input and creates objects and then add some key-value pair then return that newly created Object
- 
+// Making a function which takes input and creates objects and then add some key-value pair then return that newly created Object
+// Concept of OOPS 
+
 function createUser(firstName, lastName, email, age, address){
     const user ={};
     user.firstName=firstName,
@@ -35,4 +38,6 @@ function createUser(firstName, lastName, email, age, address){
 }
 
 const user1 =createUser('harshit','utkarsh',"utarshpandey519@gmail.com", 19, 'myaddress')
-console.log(user1);
+const user2 =createUser('Rohit','Mohit',"utarshpandey519@gmail.com", 19, 'myaddress')
+
+console.log(user1, user2);
