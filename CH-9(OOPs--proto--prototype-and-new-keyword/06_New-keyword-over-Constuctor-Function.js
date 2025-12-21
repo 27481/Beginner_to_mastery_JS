@@ -5,8 +5,8 @@ function createUser(firstName, age){
 }
 
 usr1=new createUser("utkarsh", 1);
-usr2=new createUser("pandey", 2);
-usr3=new createUser("Lucknow", 3);
+usr2=createUser("pandey", 2);
+usr3=createUser("Lucknow", 3);
 
 /*
 Working of new keyword 
@@ -25,3 +25,5 @@ return obj;                              // 4. return object
 */
 
 console.log(usr1);
+console.log(usr2);
+console.log(usr3);

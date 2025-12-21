@@ -24,9 +24,15 @@ function createUser(firstName, lastName, email, age, address){
     return user;
 }
 
-user1=createUser('utkarsh' , 'pandey', 'utkarshpandey519@gmail.com' ,23, 'Lucknow-chinhat');
+
+user1=new createUser('utkarsh' , 'pandey', 'utkarshpandey519@gmail.com' ,23, 'Lucknow-chinhat');
+user2=new createUser('utkarsh' , 'pandey', 'utkarshpandey519@gmail.com' ,23, 'Lucknow-chinhat');
+user3=new createUser('utkarsh' , 'pandey', 'utkarshpandey519@gmail.com' ,23, 'Lucknow-chinhat');
+
 
 console.log(user1);
+console.log(user2);
+console.log(user3);
 
 console.log(user1.is18());
 console.log(user1.sing());
