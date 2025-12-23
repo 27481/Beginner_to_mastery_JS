@@ -20,7 +20,7 @@ class Person{
         this.lastName=lastName;
     }
     eat(){
-        return `${this.firstNamename} is eating`;
+        return `${this.firstName} is eating`;
     }
     isSuperCute(){
         return this.age<=1;
