@@ -1,0 +1,6 @@
+Js is a {synchronous programming} language by-default [A.K.A single threaded], 
+                [Means it run a single line of code at a time]
+  But 
+    Browser provides few method to make [JS asynchronus]
+
+

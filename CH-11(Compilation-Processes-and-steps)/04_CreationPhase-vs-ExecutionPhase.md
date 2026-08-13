@@ -92,3 +92,6 @@ Because it explains:
 > **Creation phase sets up memory & scope; execution phase runs the code.**
 
 If you want next, I can explain **Execution Context stack** in the same concise way.
+
+
+
