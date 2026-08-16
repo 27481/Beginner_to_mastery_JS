@@ -1,13 +1,27 @@
 // Function can reutrn functions 
 
-function outerFunction(){
-    function innerFunction(){
-        console.log("hello world");
+// function outerFunction(){
+//     let x=100;
+//     function innerFunction(){
+//         console.log(x,"Hello, I am inner function running");
+//     }
+//     return innerFunction;
+// }
+
+// const ans=outerFunction();
+
+// console.log(ans);
+// ans();
+
+ 
+function printFullName(firstName, lastName){
+    function printName(){
+        console.log(firstName, lastName);
     }
-    return innerFunction
+    return printName;
 }
 
-const ans=outerFunction();
-
-console.log(ans);
+const ans=printFullName("utkarsh", "pandey");
+// console.log(ans);
 ans();
+
